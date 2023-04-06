@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
   // Sending This is the home page! in the page
   res
     .status(200)
-    .send(`This is My Sample Node.js CICD Pipeline Setup ${process.env.PORT}`);
+    .send(`This is My Sample Node.js CICD Pipeline Setup `);
 });
 
 // Listening to the port 
